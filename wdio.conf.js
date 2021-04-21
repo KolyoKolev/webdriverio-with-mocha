@@ -24,6 +24,13 @@ exports.config = {
   // will be called from there.
   //
   specs: ['./test/specs/**/*.js'],
+  suites: {
+    homePages: [
+      './test/specs/loading-google-home-page.spec.js',
+      './test/specs/loading-wikipedia-home-page.spec.js',
+    ],
+  },
+
   // Patterns to exclude.
   exclude: [
     // 'path/to/excluded/files'
