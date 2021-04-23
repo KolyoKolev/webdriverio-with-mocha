@@ -1,4 +1,4 @@
-import { URLS } from '../pages/';
+import { URLS } from '../urls';
 import { HEROUAPP_LOGIN_PAGE } from '../selectors';
 
 describe('My Login application', () => {

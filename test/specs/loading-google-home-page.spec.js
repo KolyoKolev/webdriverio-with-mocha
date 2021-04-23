@@ -1,4 +1,4 @@
-import { URLS } from '../pages/';
+import { URLS } from '../urls/';
 
 describe('Google', () => {
   it("should open google's home page ", async () => {

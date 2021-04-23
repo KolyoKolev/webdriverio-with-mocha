@@ -1,4 +1,4 @@
-import { URLS } from '../pages/';
+import { URLS } from '../urls/';
 
 describe('Wikipedia', () => {
   it("should open wikipedia's home page", async () => {
